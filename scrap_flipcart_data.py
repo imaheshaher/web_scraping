@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import csv
-import re
+
 
 url="https://www.flipkart.com/mobile-phones-store"
 
