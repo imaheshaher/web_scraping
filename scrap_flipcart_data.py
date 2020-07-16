@@ -14,7 +14,7 @@ filename="mobiledata128.csv"
 f=csv.writer(open(filename,"w",encoding="utf-8"))
 f.writerow(["name" , "Price" ])
 
-#class="tcb-post-content tcb-shortcode thrv_wrapper"
+
 for data in soup.findAll('a',attrs={'class':'K6IBc-'}):
     n=data.find('div',attrs={'class':'iUmrbN'})
     p=data.find('div',attrs={'class':'M_qL-C'})
